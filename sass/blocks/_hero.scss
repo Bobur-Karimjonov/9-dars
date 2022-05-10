@@ -227,10 +227,10 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) { 
   
   .hero::before{
-    background-image: url(../../images/hero-left-bg@2x.png);
+    background-image: url(../images/hero-left-bg@2x.png);
   }
 
   .hero::after{
-    background-image: url(../../images/hero-bg@2x.png);
-  }
-} 
+    background-image: url(../images/hero-bg@2x.png);
+  } 
+}
