@@ -68,6 +68,73 @@
   color: #FFFFFF;
 }
 
+
+@media only screen and (max-width:1040px){
+  .inner-left{
+    max-width: 540px;
+    padding: 0 40px;
+    margin-right: 0;
+  }
+  .inner-left-title{
+    font-size: 85px;
+    line-height: 70px;
+    // text-align: center;
+    // margin-bottom: 24px;
+  }
+  .hero::after{
+    top: 77%;
+    right: calc(50% - 500px);
+  }
+}
+
+@media only screen and (max-width:1012px){
+  .inner-left-title{
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width:985px){
+  .inner-left-title{
+    font-size: 79px;
+  }
+}
+@media only screen and (max-width:980px){
+  .inner-left-title{
+    font-size: 76px;
+  }
+}
+@media only screen and (max-width:957px){
+  .inner-left-title{
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width:946px){
+  .inner-left-title{
+    font-size: 74px;
+  }
+}
+@media only screen and (max-width:937px){
+  .inner-left-title{
+    font-size: 73px;
+    line-height: 100px;
+  }
+}
+@media only screen and (max-width:925px){
+  .inner-left-title{
+    font-size: 72px;
+    line-height: 100px;
+  }
+}
+@media only screen and (max-width:915px){
+    .hero::after {    
+    top: 77%;
+    right: calc(50% - 425px);
+    
+    .inner-left-title{
+    font-size: 71px;
+    line-height: 100px;
+  }
+}
+
 @media only screen and (max-width:768px){
   .hero{
     padding-bottom: 0;
@@ -93,7 +160,8 @@
     display: none;
   }
   .inner-right{
-    width: 457px;
+    width: 100%;
+    max-width: 457px;
   }
   .inner-right-text{
     margin-bottom: 190px;
